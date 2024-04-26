@@ -1,0 +1,205 @@
+"""
+mariam taher - 320220201
+raghdan elhamy - 320220190
+noor abdelsalam - 320220191
+nouran mohamed elsharkawy - 320220249
+"""
+while True:
+    choose=int(input("entter an option : \n 1-add patient \n 2- print all patients \n 3-get next patient \n 4-leaving patient \n 5-end program"))
+
+if choose==1:
+    #add patient
+   class specilization:
+    def _init_(self):
+        self.name=input("enter name : ")
+        self.urgency=int(input("enter urgency : 0->normal / 1->urgent / 2->super urgent"))
+        if self.urgency != 0 or self.urgency != 1 or self.urgency != 2 :
+            raise Exception ("entery within given range")
+
+choice = int(input("enter specilization 1:20"))
+if choice==1:
+    class doc1(specilization,operations) :
+       def _init_(self):
+         super()._init_(self) 
+    patient1=[] 
+    patient1.append(doc1(name,urgency))  
+    patient1.sort(reverse=True)
+    hospitallist.append(patient1)
+elif choice==2:
+    class doc2(specilization) :
+       def _init_(self):
+         super()._init_() 
+    patient2=[] 
+    patient2.append(doc2(name,urgency))  
+    patient2.sort(reverse=True) 
+    hospittallist.append(patient2)
+elif choice==3:
+    class doc3(specilization) :
+       def _init_(self):
+         super()._init_() 
+    patient3=[] 
+    patient3.append(doc3(name,urgency))  
+    patient3.sort(reverse=True)
+    hospitallist.append(patient3)
+            
+elif choice ==4:
+    class doc4(specilization) :
+       def _init_(self):
+         super()._init_() 
+    patient4=[] 
+    patient4.append(doc4(name,urgency))  
+    patient4.sort(reverse=True)
+    hospitallist.append(patient4)
+elif choice == 5:
+    class doc5(specilization) :
+       def _init_(self):
+         super()._init_() 
+    patient5=[] 
+    patient5.append(doc5(name,urgency))  
+    patient5.sort(reverse=True)
+    hospitallist.append(patient5)
+elif choice == 6:
+    class doc6(specilization) :
+       def _init_(self):
+         super()._init_() 
+    patient6=[] 
+    patient6.append(doc6(name,urgency))  
+    patient6.sort(reverse=True) 
+    hospitallist.append(patient6)
+elif choice==7:
+    class doc7(specilization) :
+       def _init_(self):
+         super()._init_() 
+    patient7=[] 
+    patient7.append(doc7(name,urgency))  
+    patient7.sort(reverse=True)
+    hospitallist.append(patient7)
+elif choice == 8:
+    class doc8(specilization) :
+       def _init_(self):
+         super()._init_() 
+    patient8=[] 
+    patient8.append(doc8(name,urgency))  
+    patient8.sort(reverse=True) 
+    hospitallist.append(patient8)
+    
+elif choice == 9:
+    class doc9(specilization) :
+       def _init_(self):
+         super()._init_() 
+    patient9=[] 
+    patient9.append(doc9(name,urgency))  
+    patient9 .sort(reverse=True) 
+    hospitallist.append(patient9)
+elif choice == 10:
+    class doc10(specilization) :
+       def _init_(self):
+         super()._init_() 
+    patient10=[] 
+    patient10.append(doc10(name,urgency))  
+    patien10t.sort(reverse=True)
+    hsopitallist.append(patient10)
+
+elif choice==11:
+    class doc11(specilization) :
+       def _init_(self):
+         super()._init_() 
+    patient11=[] 
+    patient11.append(doc11(name,urgency))  
+    patient11.sort(reverse=True)
+    hospitallist.append(patient11)
+elif choice==12:
+    class doc12(specilization) :
+       def _init_(self):
+         super()._init_() 
+    patient12=[] 
+    patient12.append(doc12(name,urgency))  
+    patient12.sort(reverse=True) 
+    hospitallist.append(patient12)
+elif choice==13:
+    class doc13(specilization) :
+       def _init_(self):
+         super()._init_() 
+    patient13=[] 
+    patient13.append(doc13(name,urgency))  
+    patient13.sort(reverse=True)
+    hospitallist.append(patient13)
+            
+elif choice ==14:
+    class doc14(specilization) :
+       def _init_(self):
+         super()._init_() 
+    patient14=[] 
+    patient14.append(doc14(name,urgency))  
+    patien1t4.sort(reverse=True)
+    hospitallist.append(patient14)
+elif choice == 15:
+    class doc15(specilization) :
+       def _init_(self):
+         super()._init_() 
+    patient15=[] 
+    patient15.append(doc15(name,urgency))  
+    patient15.sort(reverse=True)
+    hospitallist.append(patient15)
+elif choice == 16:
+    class doc16(specilization) :
+       def _init_(self):
+         super()._init_() 
+    patient16=[] 
+    patient16.append(doc16(name,urgency))  
+    patient16.sort(reverse=True) 
+    hospitallist.append(patient16)
+elif choice==17:
+    class doc17(specilization) :
+       def _init_(self):
+         super()._init_() 
+    patient17=[] 
+    patient17.append(doc17(name,urgency))  
+    patient17.sort(reverse=True)
+    hospitallist.append(patient17)
+elif choice == 18:
+    class doc18(specilization) :
+       def _init_(self):
+         super()._init_() 
+    patient18=[] 
+    patient18.append(doc18(name,urgency))  
+    patient18.sort(reverse=True) 
+    hospitallist.append(patient18)
+    
+elif choice ==19:
+    class doc19(specilization) :
+       def _init_(self):
+         super()._init_() 
+    patient19=[] 
+    patient19.append(doc19(name,urgency))  
+    patient19 .sort(reverse=True) 
+    hospitallist.append(patient19)
+elif choice == 20:
+    class doc20(specilization) :
+       def _init_(self):
+         super()._init_() 
+    patient20=[] 
+    patient20.append(doc20(name,urgency))  
+    patient20.sort(reverse=True)
+    hospitallist.append(patient20)
+else:
+    print("non valid entery")
+
+if choose == 2:
+    for i in hospitallist:
+        print (hospitallist[i]," ")
+
+if choose == 4:
+    def remove():
+     name=input("enter name of leaving patient")
+     for i in hospitallist:
+         if hospitallist[i]==name:
+             hospitallist.remove(i) 
+     return hospitallist
+
+if choose==3: 
+    def get(specialization):
+        spec=int(input("enter specializtion"))
+        return (list.pop(0),"please go the doctor's office") 
+if choose == 5 :
+    return False
