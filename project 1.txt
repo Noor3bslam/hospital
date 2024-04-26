@@ -1,8 +1,5 @@
 """
-mariam taher - 320220201
-raghdan elhamy - 320220190
-noor abdelsalam - 320220191
-nouran mohamed elsharkawy - 320220249
+noor abdelsalam 
 """
 while True:
     choose=int(input("entter an option : \n 1-add patient \n 2- print all patients \n 3-get next patient \n 4-leaving patient \n 5-end program"))
